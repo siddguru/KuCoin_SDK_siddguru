@@ -72,14 +72,14 @@ public class Kucoin {
 		}
 		
 		public KCBuilder apiKey(String apiKey) {
-            this.KC_API_KEY = apiKey;
-            return this;
-        }
+            		this.KC_API_KEY = apiKey;
+            		return this;
+        	}
 		
 		public KCBuilder apiSignature(String apiSignature) {
-            this.KC_API_SIGNATURE = apiSignature;
-            return this;
-        }
+            		this.KC_API_SIGNATURE = apiSignature;
+            		return this;
+        	}
 		
 		public Kucoin build() {
 			return new Kucoin(this);
